@@ -1,0 +1,163 @@
+Microsoft Windows [Version 10.0.22631.5624]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\lorai>cd downloads
+
+C:\Users\lorai\Downloads>md LOZANO_MLD_OS-LQ1
+
+C:\Users\lorai\Downloads>cd LOZANO_MLD_OS-LQ1
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1>md "src" "common" "installer" "cache" "user"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1>cd src
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\src>md "a" "b" "c" "d" "e" "f" "g"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\src>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1>cd common
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\common>md "h" "i" "j" "k" "l" "m"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\common>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1>cd installer
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\installer>md "installer_folder"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\installer>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1>cd cache
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\cache>md "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\cache>md "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\cache>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1>cd user
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>md "user_jerico" "user_eliza" "user_juan"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>cd "user_jerico"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico>md "user_profile" "user_settings" "user_preferences"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico>cd "user_profile"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico\user_profile>md "jerico estabillo"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico\user_profile>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico>cd "user_settings"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico\user_settings>md "OSversion" "AppVersion"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>xcopy "user_jerico" "user_eliza" /E /I
+0 File(s) copied
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>xcopy "user_jerico" "user_juan" /E /I
+0 File(s) copied
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>cd "user_eliza"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_eliza>cd "user_profile"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_eliza\user_profile>ren "jerico estabillo" "eliza taylor"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_eliza\user_profile>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_eliza>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>cd "user_juan"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_juan>cd "user_profile"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_juan\user_profile>ren "jerico estabillo" "juan pablo"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_juan\user_profile>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_juan>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>cd "uder_jerico"
+The system cannot find the path specified.
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>cd "user_jerico"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico>cd "user_settings"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico\user_settings>cd "AppVersion"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico\user_settings\AppVersion>md "sampleApp_v2" "sampleApp_v3" "sampleApp_v5"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico\user_settings\AppVersion>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>move "user_jerico\user_settings\AppVersion\sampleApp_v3" "user_eliza\user_settings\AppVersion"
+        1 dir(s) moved.
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>move "user_jerico\user_settings\AppVersion\sampleApp_v5" "user_juan\user_settings\AppVersion"
+        1 dir(s) moved.
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>cd "user_eliza"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_eliza>cd "user_settings"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_eliza\user_settings>rmdir OSVersion
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_eliza\user_settings>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_eliza>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>cd "user_jerico"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico>cd "user_settings"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico\user_settings>rmdir OSVersion
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>cd "user_juan"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_juan>cd "user_settings"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_juan\user_settings>rmdir OSVersion
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_juan\user_settings>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_juan>ren "user_preference" "mode"
+The system cannot find the file specified.
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_juan>ren "user_preferences" "mode"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_juan>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>cd "user_jerico"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico>cd "user_settings"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico>ren "user_preferences" "mode"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_jerico>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>cd "user_eliza"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_eliza>ren "user_preferences" "mode"
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user\user_eliza>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1\user>cd..
+
+C:\Users\lorai\Downloads\LOZANO_MLD_OS-LQ1>move "user\user_eliza\mode" "installer\installer_folder"
+        1 dir(s) moved.
